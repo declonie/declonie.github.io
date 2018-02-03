@@ -1,0 +1,35 @@
+/*ABOUT SECTION */
+section.skills {
+     float: left;
+     width: 15%;
+     padding: .5% 6% 3% 3%;
+     line-height: 2em;
+ }
+/*PORTFOLIO SECTION */
+li.projects {
+     float: left;
+     width: 20%;
+     padding: 2.5% 0 1% 0;
+     padding: 2.5% 0 1% 0;
+     text-align:center;
+}
+li.projects img {
+     width: 75%;
+ }
+ 
+li.distanceWide {
+     margin-bottom: 2.5%
+ }
+/*PROJECTS SECTIONS */
+img#desktop {
+     width: 60%;
+ }
+div#projectArea img {
+     float: left;
+     padding-left: 3%;
+     padding-right: 3%;
+ }
+ 
+h1,h2,h3 {
+     clear: both;
+ }

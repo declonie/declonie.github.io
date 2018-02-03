@@ -1,0 +1,54 @@
+/*ABOUT SECTION */
+section.skills {
+     padding: 0 3% 1% 5%;
+     line-height: 1.5em;
+ }
+.distanceNarrow {
+     margin-bottom: 5%;
+ }
+/*PORTFOLIO SECTION */
+li.projects {
+     float: left;
+     width: 50%;
+     padding-top: 5%;
+     text-align:center;
+
+ }
+li.projects img {
+     width: 70%;
+     margin-bottom: 1%;
+ }
+/*PROJECTS SECTION */ 
+div#projectArea {
+     text-align:center;
+ }
+div#projectArea img{
+     float: none;
+     text-align:center;
+     padding-left: 3%;
+     width: 75%;
+}
+div#projectArea p{
+     text-align:center;
+     font-size:1.5em;
+}
+/* Index */
+h1#banner {
+     font-size: 2em;
+ }
+h2#banner {
+     font-size: 2em;
+ }
+ li.navitem a {
+     font-size: 2em;
+ }
+ 
+
+ h1,h2,h3 {
+     text-align:center;
+     font-size: 2em;
+     clear: both;
+  }
+h2#tcspace {
+    padding-top: 7%;
+ }

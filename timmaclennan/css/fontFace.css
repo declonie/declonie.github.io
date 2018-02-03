@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/bebasNeue/BebasNeue-webfont.eot');
+    src: url('../fonts/bebasNeue/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasNeue/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/bebasNeue/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/bebasNeue/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+		 src:
+		 url(../fonts/bebasNeue/BebasNeue-webfont.ttf)
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Puritan20Normal';
+    src: url('../fonts/puritan/Puritan_Regular-webfont.eot');
+    src: url('../fonts/puritan/Puritan_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/puritan/Puritan_Regular-webfont.woff') format('woff'),
+         url('../fonts/puritan/Puritan_Regular-webfont.ttf') format('truetype'),
+         url('../fonts/puritan/Puritan_Regular-webfont.svg#Puritan20Normal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Puritan20Italic';
+    src: url('../fonts/puritan/Puritan_Italic-webfont.eot');
+    src: url('../fonts/puritan/Puritan_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/puritan/Puritan_Italic-webfont.woff') format('woff'),
+         url('../fonts/puritan/Puritan_Italic-webfont.ttf') format('truetype'),
+         url('../fonts/puritan/Puritan_Italic-webfont.svg#Puritan20Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Puritan20Bold';
+    src: url('../fonts/puritan/Puritan_Bold-webfont.eot');
+    src: url('../fonts/puritan/Puritan_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/puritan/Puritan_Bold-webfont.woff') format('woff'),
+         url('../fonts/puritan/Puritan_Bold-webfont.ttf') format('truetype'),
+         url('../fonts/puritan/Puritan_Bold-webfont.svg#Puritan20Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Puritan20BoldItalic';
+    src: url('../fonts/puritan/Puritan_Bold_Italic-webfont.eot');
+    src: url('../fonts/puritan/Puritan_Bold_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/puritan/Puritan_Bold_Italic-webfont.woff') format('woff'),
+         url('../fonts/puritan/Puritan_Bold_Italic-webfont.ttf') format('truetype'),
+         url('../fonts/puritan/Puritan_Bold_Italic-webfont.svg#Puritan20BoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BitterRegular';
+    src: url('../fonts/bitter/Bitter-Regular-webfont.eot');
+    src: url('../fonts/bitter/Bitter-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bitter/Bitter-Regular-webfont.woff') format('woff'),
+         url('../fonts/bitter/Bitter-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/bitter/Bitter-Regular-webfont.svg#BitterRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BitterItalic';
+    src: url('../fonts/bitter/Bitter-Italic-webfont.eot');
+    src: url('../fonts/bitter/Bitter-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bitter/Bitter-Italic-webfont.woff') format('woff'),
+         url('../fonts/bitter/Bitter-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/bitter/Bitter-Italic-webfont.svg#BitterItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BitterBold';
+    src: url('../fonts/bitter/Bitter-Bold-webfont.eot');
+    src: url('../fonts/bitter/Bitter-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bitter/Bitter-Bold-webfont.woff') format('woff'),
+         url('../fonts/bitter/Bitter-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/bitter/Bitter-Bold-webfont.svg#BitterBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

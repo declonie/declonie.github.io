@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="style1.css" type="text/css" rel="stylesheet">
+    <title>Tim Decloniemaclennan - UX, Accessibility, Design</title>
+  </head>
+  <body>
+      <header>
+          <center><a href="index.html"><img src="images/newerlogo-01.png" class="bannerimg" width="100%"></a></center>
+		</header>
+		<ul id="navigation">
+				<li class="navitem"><a href="index.html" id="selected">Home</a></li>
+				<li class="navitem"><a href="projects.html">Projects</a></li>
+                <li class="navitem"><a href="UX.html">User Experience</a></li>
+				<li class="navitem"><a href="about.html">About</a></li>
+				<li class="navitem"><a href="contact.html">Contact</a></li>
+				<!--<li class="navitem"><a href="inspiration.html">Ideas</a></li>-->
+		</ul>
+      <br>
+      <br>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/msubanner-01.png" style="width:100%">
+  <div class="text">Michigan State University - Go Green</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <a href="projectI.html"><img src="images/pokemonbanner-01.png" style="width:100%"></a>
+  <div class="text">Recent Project: Pokemon Art</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <a href="projectD.html"><img src="images/designadventures-01.png" style="width:100%"></a>
+  <div class="text">Recent Project: Personal Branding</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+		<div id="container">
+             <h1 class="indexheader">Welcome to my Online Portfolio!</h1>
+			 <div id="projectArea">
+				  <p>This site is dedicated to showing off the skills I've gained in Usability, Accessibility, and Design. A lot of the projects were ones I completed during my time at Michigan State University, and several others were done during my free time or to meet some sort of design goal. I will be updating this website all the time with new projects that I have worked on or completed! Please check back from time-to-time to see what I am working on!</p>
+			 </div>
+		</div>
+      		<div id="container">
+             <h2 class="indexheader">Updates</h2>
+			 <div id="projectArea">
+                 <p><strong>Update 06/27/2016: Site Launched! </strong> Today is the first day that the site has been launched! I've never oficially launched a website after buying a url, so please <a href="contact.html" class="pname1"> contact me </a> if there are any issues.</p>
+                 <p><strong>Currently in the works: Mobile Version!</strong> As many of you may notice, the website does not currently have a very mobile friendly interface. I will be working to create a mobile friendly version of the website in the next few weeks, but until then a desktop is the best way to experience the site.</p>
+			 </div>
+		</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length} ;
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+  </body>
