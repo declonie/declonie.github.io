@@ -82,7 +82,9 @@ h3 {
 .pt-5, .py-5 {
     padding-top: 2rem!important;
 }
-
+.bg-dark {
+  background-image: url("http://support.leagueapps.com/customer/portal/attachments/28383");
+}
 
 /* Hover and Active Effects */
 
