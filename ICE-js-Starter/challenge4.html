@@ -13,34 +13,31 @@
     
     <script type="text/javascript">
     function checkForm(){
-    	// Write a function that displays the appropriate error message(s) if a field is left blank.  Make sure the form action is not performed if either field is blank.
-        // Check if the length is 0
-        var fullname = document.getElementById("fullname");
-        var streetaddr = document.getElementById("streetaddr");
-        var address_error = document.getElementById("addrerrormsg");
-        var name_error = document.getElementById("nameerrormsg");
-        
-        var missingCounter = 0
-        
-        if (!fullname.value){
-            name_error.style.display = "block";
-            missingCounter +=1;
-        }
-        else {
-            name_error.style.display = "none";
-        }
-        if (!address_error.value){
-            address_error.style.display = "block";
-            missingCounter +=1;
-        }
-        else {
-            address_error.style.display = "none";
-        }
-        
-        if(missingCounter > 0){
-            return false;
-        }
-    }  
+    	// Write a function that displays the appropriate error message(s) if a field is left blank.  Make sure the submist action is not performed if either field is blank.
+			var fullname = document.getElementById("fullname");
+			var fullnameV = fullname.value;
+			var nameError = document.getElementById("nameerrormsg");
+			if (fullnameV == "")
+            {
+				nameError.style.display="block";
+			}
+			else{
+				nameError.style.display = "none";
+			}
+			var streetaddr = document.getElementById("streetaddr");
+			var streetaddrV = streetaddr.value;
+			var addressError = document.getElementById("addrerrormsg");
+			if (streetaddrV=="")
+            {
+				addressError.style.display="block";
+			}
+			else{
+				addressError.style.display ="none";
+			}
+			if (fullnameV =="" || streetaddrV==""){
+			 return false; //
+		 }
+		}
     </script>
 </head>
 <body>
