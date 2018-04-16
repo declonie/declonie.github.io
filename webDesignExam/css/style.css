@@ -1,0 +1,16 @@
+img {
+  border: 5px;
+  border-style: solid;
+  border-color: blue;
+  box-sizing: border-box;
+  padding: 5%;
+  width: 50%;
+}
+
+.container {
+  display: flex;
+}
+
+body {
+  background-image: url('../images/restaurant.png');
+}

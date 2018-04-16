@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Final Exam</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <h1>Tim Decloniemaclennan </h1>
+    <div class="container">
+      <img src="images/examPic.JPG" alt="exam picture" id="disappear">
+      <img src="images/umsi.jpg" alt="UMSI Logo" id="secondimg">
+    </div>
+    <button id="button"> Hide Image </button>
+    <button id="show"> Show Image </button>
+    <script>
+        var disappear = true;
+        function toggle() {
+            var imgID = document.getElementById('disappear');
+            var otherIMG = document.getElementById('secondimg');
+            if (disappear) {
+                imgID.style.display = "none";
+                otherIMG.style.display="block";
+                otherIMG.style.margin=" 0 auto";
+                disappear = false;
+            } else {
+                imgID.style.display = "";
+                disappear = true;
+            }
+        }
+        document.getElementById("button").addEventListener("click", toggle);
+        document.getElementById("show").addEventListener("click", toggle);
+    </script>
+  </body>
+</html>
