@@ -1,0 +1,174 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto Light, Arial, Verdana;
+}
+
+nav {
+  background-color: #1c1c1c !important;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 288px;
+  height: 100%;
+  z-index: 1;
+  transition: .2s;
+}
+p {
+  padding-bottom: 4%;
+}
+
+img {
+  padding-bottom: 4%;
+}
+
+.persona img{
+  width: 60%;
+  text-align: center;
+}
+
+.persona {
+  text-align:center;
+}
+.content {
+  position: relative;
+  transform: translateX(288px);
+  width: calc(100% - 288px);
+  z-index: 0;
+  transition: .2s;
+}
+
+.real-content {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.nav-items {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 5%;
+  font-size: 1.25rem;
+}
+
+.nav-items a {
+  color: white;
+  display: block;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+}
+
+.nav-items a:hover{
+  background-color: #583ba1;
+  text-decoration: none;
+}
+
+
+.logo {
+  padding-left: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.name {
+  color: white;
+  font-size: 1.25rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.title {
+  font-size: 1.25rem;
+  text-align: left;
+}
+button {
+  background-color: white;
+}
+
+/* Headers */
+
+h1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+h2 {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+h3 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 1.75rem;
+}
+.project-page {
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+
+.project-text {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  margin: 0;
+}
+
+/* Video Stuff */
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* Persona Styling */
+
+.persona-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+.persona-text {
+  font-size: 1.5rem;
+}
+/* List Stylings */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+li {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.quickfacts {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 1.5rem;
+}
+
+#nav-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    transform: translateX(-288px);
+  }
+  #nav-toggle {
+    display: inline;
+  }
+  .content {
+    transform: translateX(0);
+    width: 100vw;
+  }
+}

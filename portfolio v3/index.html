@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Tim D - Portfolio</title>
+    <script>
+      window.onload = function(e) {
+        "use strict";
+
+        var nav_is_open = false;
+        var button = document.getElementById("nav-toggle");
+        var nav = document.querySelector("nav");
+        var content = document.querySelector(".content");
+        button.addEventListener("click", function() {
+          nav_toggle_function();
+        });
+
+        function nav_toggle_function() {
+          if (!nav_is_open) {
+            open_nav();
+          } else {
+            close_nav();
+          }
+          nav_is_open = !nav_is_open;
+        }
+
+        var was_mobile_width = window.innerWidth < 800;
+        window.addEventListener("resize", function(e) {
+          if (was_mobile_width) {
+            if (window.innerWidth > 800) {
+              if (!nav_is_open) {
+                open_nav();
+                nav_is_open = true;
+              }
+            }
+          } else {
+            if (window.innerWidth < 800) {
+              if (nav_is_open) {
+                close_nav();
+                nav_is_open = false;
+              }
+            }
+          }
+          was_mobile_width = window.innerWidth < 800;
+        });
+
+        function open_nav() {
+          nav.style.transform = "translateX(0)";
+          content.style.transform = "translateX(288px)";
+        }
+
+        function close_nav() {
+          nav.style.transform = "translateX(-288px)";
+          content.style.transform = "translateX(0)";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="nav">
+      <nav>
+      <div class="logo">
+        <img src="images/logo2.png">
+      </div>
+      <div class="name">
+        <p>Tim Decloniemaclennan</p>
+      <div class="title">
+        <p> UX Designer &amp; Researcher </p>
+      </div>
+      </div>
+        <ul class="nav-items">
+          <a href="/html/">About</a>
+          <a href="/css/">Contact</a>
+          <a href="/js/">Projects</a>
+          <a href="/jquery/">Resume</a>
+        </ul>
+      </nav>
+    </div>
+
+<div class="content">
+  <div class="toggle">
+    <button id="nav-toggle">&#9776;</button>
+  </div>
+  <div class="real-content">
+  <div class="row">
+    <div class="col-12">
+      <h1>Projects</h1>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+          <h2> Project Name</h2>
+          <img src="images/square.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-6">
+          <h2> Project Name </h2>
+          <img src="images/square.jpg" class="img-fluid">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+      <h2> Project Name</h2>
+        <a href="google.com">
+          <img src="images/square.jpg" class="img-fluid">
+        </a>
+    </div>
+    <div class="col-lg-6">
+          <h2> Project Name </h2>
+          <img src="images/square.jpg" class="img-fluid">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+          <h2> Project Name</h2>
+          <img src="images/square.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-6">
+          <h2> Project Name </h2>
+          <img src="images/square.jpg" class="img-fluid">
+    </div>
+  </div>
+</div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
