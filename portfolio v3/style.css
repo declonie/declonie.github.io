@@ -146,6 +146,9 @@ a:hover {
   color: white;
   transition: 0.3s;
 }
+.project-link {
+  font-size: 1.5rem;
+}
 
 /* Persona Styling */
 
@@ -197,5 +200,20 @@ li {
   .content {
     transform: translateX(0);
     width: 100vw;
+  }
+  .project-text {
+    font-size: 1.25rem;
+  }
+  .persona-text {
+    font-size: 1.25rem;
+  }
+  .quote {
+    font-size: 1.25rem;
+  }
+  h3 {
+    margin-top: 5%;
+  }
+  .project-link {
+    font-size: 1.25rem;
   }
 }
