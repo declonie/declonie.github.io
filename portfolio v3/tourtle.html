@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Hello, world!</title>
+    <title>Tourtle - UX Design &amp; Research</title>
     <script>
       window.onload = function(e) {
         "use strict";
@@ -149,7 +149,7 @@
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <h2 class="project-page"> How did we get here? - Research </h2>
+        <h2 class="project-page">Research Process</h2>
         <p class="project-text">
             Before Tourtle what is created, we needed to examine the traditional museum experience and see if we could find opportunities to improve it.
             To do this, we employed several research methodologies to help gain a complete picture of the traditional museum experience.
@@ -224,6 +224,120 @@
         </p>
       </div>
     </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="project-page"> Design Process </h2>
+        <p class="project-text">
+          After conducting all of our research methodologies, we moved onto the design phase of the project, which consistd of (insert number of steps here) steps.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="project-page"> Ideation </h3>
+        <p class="project-text">
+          We didn't want to become fixated on any one particular solution at this point, so out first step was creating an 8 x 10 matrix table with the sole purpose of generating as many ideas as possible. Using this method we were able to generate 80 unique ideas which all had the potential to solve our design problem.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="img-fluid" src="images/tourtle_matrix.png">
+      </div>
+      <div class="col-lg-4">
+        <img class="img-fluid" src="images/tourtle_criteria.png">
+      </div>
+      <div class="col-lg-4">
+        <img class="img-fluid" src="images/tourtle_ideas.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="project-text">
+          Narrowing the Selection:
+        </p>
+        <p class="project-text">
+          We narrowed our final selection down to 3 potential choices based on 3 select criteria: <strong>How well do they solve the problem? How feasible is this solutions? Would our target audience be interested in using this solution?</strong>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="img-fluid" src="images/tourtle_toy.PNG">
+        <p class="project-text">
+            A toy kids can carry around that tells them stories about museum exhibits
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <img class="img-fluid" src="images/tourtle_explorer.PNG">
+        <p class="project-text">
+            An explorer kit kids can use to act like professionals and engage with materials as "experts"
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <img class="img-fluid" src="images/tourtle_3d.PNG">
+        <p class="project-text">
+            A 3D printing exhibit that gives kids a souvenir and a story
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="project-page"> Prototyping - 1st Try</h3>
+        <p class="project-text">
+          For our first prototype, we used an electronics kit called LittleBits, and paired it with a toy bear stuffed animal. By using LittleBits, we were able to create a solution that allowed us to play audio through our phones by pushing a button on the bears back pack.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="img-fluid" src="images/tourtle_bear.png">
+      </div>
+      <div class="col-lg-3">
+        <img class="img-fluid" src="images/tourtle_bear2.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="project-page"> Prototyping - Feedback</h3>
+        <p class="project-text">
+          After creating our prototype, we wanted to test it out with users and other UX professionals to get their opinion on it. As was expected, our prototype had a few major concerns that needed to be addressed:
+        </p>
+        <ul class="styled-list">
+          <li class="quote">The bear as a whole was too large, children couldn't carry it around easily</li>
+          <li class="quote">Because of the internals, the bear became too heavy to carry around and fatigued children easily</li>
+          <li class="quote">There was concern about the bear being left behind as kids run throughout the museum</li>
+          <li class="quote">LittleBits was too limited in its implementation and couldn't effectively communicate the product</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="project-page"> Prototyping - 2nd Iteration</h3>
+        <p class="project-text">
+          After receieving feedback on our first prototype, we made many changes. We switched our stuffed animal to a much smaller slap-bracelet, which meant less weight and bulk to carry around. Using a slap bracelet also means the toy will always be attached to the kid, making it less of a burden on them. Secondly, we changed the technical implementation; we swapped out the LittleBits system in favor of an Arduino because of the added control and flexibility to the project.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="img-fluid" src="images/tourtle_arduino2.PNG">
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid" src="images/tourtle_arduino.PNG">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="project-text">
+          <strong>Prototype Limitations</strong>
+        </p>
+        <p class="project-text">
+          Our second prototype ended up having a few issues with its implementation, the biggest being that we couldn't actually integrate the Arduino system into the prototype. After working on it for several weeks, we were unable to find a way to shrink the prototype down to a small enough size to fit into the turtles shell, so we ended up leaving them as separate components in the end.
+        </p>
+      </div>
+    </div>
+
 
 
   <br>
