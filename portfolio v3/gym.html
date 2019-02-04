@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Life as a Gym - UX Design &amp; Research</title>
+    <script>
+      window.onload = function(e) {
+        "use strict";
+
+        var nav_is_open = false;
+        var button = document.getElementById("nav-toggle");
+        var nav = document.querySelector("nav");
+        var content = document.querySelector(".content");
+        button.addEventListener("click", function() {
+          nav_toggle_function();
+        });
+
+        function nav_toggle_function() {
+          if (!nav_is_open) {
+            open_nav();
+          } else {
+            close_nav();
+          }
+          nav_is_open = !nav_is_open;
+        }
+
+        var was_mobile_width = window.innerWidth < 800;
+        window.addEventListener("resize", function(e) {
+          if (was_mobile_width) {
+            if (window.innerWidth > 800) {
+              if (!nav_is_open) {
+                open_nav();
+                nav_is_open = true;
+              }
+            }
+          } else {
+            if (window.innerWidth < 800) {
+              if (nav_is_open) {
+                close_nav();
+                nav_is_open = false;
+              }
+            }
+          }
+          was_mobile_width = window.innerWidth < 800;
+        });
+
+        function open_nav() {
+          nav.style.transform = "translateX(0)";
+          content.style.transform = "translateX(288px)";
+        }
+
+        function close_nav() {
+          nav.style.transform = "translateX(-288px)";
+          content.style.transform = "translateX(0)";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="nav">
+      <nav>
+      <div class="logo">
+        <img src="images/logo2.png" alt="">
+      </div>
+      <div class="name">
+        <p>Tim Decloniemaclennan</p>
+      <div class="title">
+        <p> UX Designer &amp; Researcher </p>
+      </div>
+      </div>
+        <ul class="nav-items">
+          <a href="/html/">About</a>
+          <a href="/css/">Contact</a>
+          <a href="/js/" id="selected">Projects</a>
+          <a href="/jquery/">Resume</a>
+        </ul>
+      </nav>
+    </div>
+
+<div class="content">
+  <div class="toggle">
+    <button id="nav-toggle">&#9776;</button>
+  </div>
+  <div class="real-content">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="project-page"> Life as a Gym AR Glasses </h1>
+        <p class="project-text">
+          “Life as a Gym: Smart Glasses that encourage exercise in a busy life through thoughtful time management and a deep understanding of one’s lifestyle.”
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="videoWrapper">
+          <iframe src="https://www.youtube.com/embed/D9FwlmPfrUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="project-page"> Why did we design Life as a Gym? </h2>
+        <p class="project-text">
+          Tourtle was designed with simplicity in mind, and has 4 easy steps to follow:
+        </p>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-lg-3 col-sm-6 col-6">
+        <img class="img-fluid" src="images/tourtle1.PNG" alt="Step 1: Attach Tourtle to Wrist">
+        <p class="persona-text">
+          1. Attach Tourtle to the kids wrist or Arm
+        </p>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-6">
+        <img class="img-fluid" src="images/tourtle2.PNG" alt="Step 2: Touch Tourtle against any museum information plaque">
+        <p class="persona-text">
+          2. Touch Tourtle against any museum information plaque
+        </p>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-6">
+        <img class="img-fluid" src="images/tourtle3.PNG" alt="Step 3. Hold Tourtle up to your ear and enjoy the story about the exhibit">
+        <p class="persona-text">
+          3. Hold Tourtle up to your ear and enjoy the story about the exhibit
+        </p>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-6">
+        <img class="img-fluid" src="images/tourtle4.PNG" alt="Step 4. Parents can use the mobile app to find discussion, quizzes, and activities">
+        <p class="persona-text">
+          4. Parents can use the mobile app to find discussion, quizzes, and activities
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="project-page"> Why Tourtle </h2>
+        <p class="project-text">
+          Traditional museums tend to focus on looking and reading; you walk up to and exhibit, look at it, read the information plaque, and do that 100 more times throughout the visit.
+          The problem is, kids aren't engaged with the museum material because it's not presented to them in a form they enjoy. Tourtle was created to solve this problem, by helping present all of the same information
+          in a form kids can digest and have fun with.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="project-page">Research Process</h2>
+        <p class="project-text">
+            Before Tourtle what is created, we needed to examine the traditional museum experience and see if we could find opportunities to improve it.
+            To do this, we employed several research methodologies to help gain a complete picture of the traditional museum experience.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="project-page"> Literature Reviews </h3>
+        <p class="project-text">
+            Museums have been around for thousands of years, and there's a lot of great knowledge which we could take advantage of which helps describe the museum experience while also pointing out potential issues.
+            To take advantage of all this information, we conducted literature reviews to specifically look at how the museum experience works for children. Through conducting a literature review, we were able to
+            find great background information, which can be seen through several of these quotes:
+        </p>
+        <p class="quote">
+          “What children take away from their experiences is determined by a combination of what they do and what they talk about.”
+        </p>
+        <p class="quote">
+          "The combination of hands‐on engagement with objects and elaborative talk during events may promote successful transfer"
+        </p>
+        <p class="quote">
+          "Overall, conversation and building tips helped parents to initiate conversations with children during an interactive activity."
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="project-page"> Observations </h3>
+        <p class="project-text">
+            In addition to literature reviews we felt it was crucial to gain first-hand real-world experience with the potential issues kids have with the museum experience;
+            to do this we decided to visit two different museums in the Detroit area and act as silent observers to be as unobtrusive as possible.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-sm-6 col-6">
+        <img class="img-fluid" src="images/tourtle_obs_1.png" alt="Kids watching a more interactive train exhibit">
+      </div>
+      <div class="col-lg-6 col-sm-6 col-6">
+        <img class="img-fluid" src="images/tourtle_obs_2.png" alt="A hands on assembly exhibit kids took part in">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-sm-6 col-6">
+        <img class="img-fluid" src="images/tourtle_obs_5.png" alt="Paper airplane exhibit kids were playing with">
+      </div>
+      <div class="col-lg-6 col-sm-6 col-6">
+        <img class="img-fluid" src="images/tourtle_obs_4.png" alt="A father and his child who isn't paying attention to the exhibits">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="project-text">
+            While visiting each museum, we observed kids are not engaging with traditional museum exhibits; they were much more interested in exhibits which allowed them to interact via touching, audio, or creating. Additionally, we also learned parents are trying to engage with their kids while and help them learn about the exhibits.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="project-page"> Surveys </h3>
+        <p class="project-text">
+            Finally, we created and deployed a 26 question survey which was aimed at learning more about people's museum experience. In particular, we wanted to focus on how going to the museum with a child affected their experience, and what their point of view was regarding how to improve the experience for kids.
+        </p>
+        <p class="quote">
+          “They (the kids) were really excited and asked a lot of questions.”
+        </p>
+        <p class="quote">
+          "We asked them questions, and what hey thought about what they saw sometimes, lots of times we let them explore to their interest."
+        </p>
+        <p class="quote">
+          "The more interactive, the better. Also having information aimed at multiple levels so kids of different ages through adults can all get something out of the exhibit."
+        </p>
+        <a href="https://umich.qualtrics.com/jfe/form/SV_1SKBeOYzsklyHUV" class="project-link"> Take the Museum Experience Survey </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="project-page"> Design Process </h2>
+        <p class="project-text">
+          After conducting all of our research methodologies, we moved onto the design phase of the project, which consistd of (insert number of steps here) steps.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="project-page"> Ideation </h3>
+        <p class="project-text">
+          We didn't want to become fixated on any one particular solution at this point, so out first step was creating an 8 x 10 matrix table with the sole purpose of generating as many ideas as possible. Using this method we were able to generate 80 unique ideas which all had the potential to solve our design problem.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="img-fluid" src="images/tourtle_matrix.png" alt="a matrix table used to generate ideas">
+      </div>
+      <div class="col-lg-4">
+        <img class="img-fluid" src="images/tourtle_criteria.png" alt="a list of criteria we used to make decisions">
+      </div>
+      <div class="col-lg-4">
+        <img class="img-fluid" src="images/tourtle_ideas.png" alt="additional ideation we did">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+          <h3 class="project-page">Narrowing the Selection:</h4>
+        <p class="project-text">
+          We narrowed our final selection down to 3 potential choices based on 3 select criteria: <strong>How well do they solve the problem? How feasible is this solutions? Would our target audience be interested in using this solution?</strong>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-12">
+        <img class="img-fluid" src="images/tourtle_toy.PNG" alt="A toy kids can carry around which tells them stories about museum exhibits">
+        <p class="project-text">
+            A toy kids can carry around which tells them stories about museum exhibits
+        </p>
+      </div>
+      <div class="col-lg-4 col-12">
+        <img class="img-fluid" src="images/tourtle_explorer.PNG" alt="An explorer kit kids can use to act like professionals and engage with materials as experts">
+        <p class="project-text">
+            An explorer kit kids can use to act like professionals and engage with materials as "experts"
+        </p>
+      </div>
+      <div class="col-lg-4 col-12">
+        <img class="img-fluid" src="images/tourtle_3d.PNG" alt="A 3D printing exhibit which gives kids a souvenir and a story">
+        <p class="project-text">
+            A 3D printing exhibit which gives kids a souvenir and a story
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="project-page"> Prototyping - 1st Try</h3>
+        <p class="project-text">
+          For our first prototype, we used an electronics kit called LittleBits, and paired it with a toy bear stuffed animal. By using LittleBits, we were able to create a solution which allowed us to play audio through our phones by pushing a button on the bears back pack.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-sm-6 col-6">
+        <img class="img-fluid" src="images/tourtle_bear.png" alt="A mockup of our first prototype, a large stuffed bear">
+      </div>
+      <div class="col-lg-3 col-sm-3 col-3">
+        <img class="img-fluid" src="images/tourtle_bear2.png" alt="The backpack of the bear hides the electrical components">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="project-page"> Prototyping - Feedback</h3>
+        <p class="project-text">
+          After creating our prototype, we wanted to test it out with users and other UX professionals to get their opinion on it. As was expected, our prototype had a few major concerns that needed to be addressed:
+        </p>
+        <ul class="styled-list">
+          <li class="quote">The bear as a whole was too large, children couldn't carry it around easily</li>
+          <li class="quote">Because of the internals, the bear became too heavy to carry around and fatigued children easily</li>
+          <li class="quote">There was concern about the bear being left behind as kids run throughout the museum</li>
+          <li class="quote">LittleBits was too limited in its implementation and couldn't effectively communicate the product</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="project-page"> Prototyping - Final Interation</h3>
+        <p class="project-text">
+          After receieving feedback on our first prototype, we made many changes. We switched our stuffed animal to a much smaller slap-bracelet, which meant less weight and bulk to carry around. Using a slap bracelet also means the toy will always be attached to the kid, making it less of a burden on them. Secondly, we changed the technical implementation; we swapped out the LittleBits system in favor of an Arduino because of the added control and flexibility to the project.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="img-fluid" src="images/tourtle_arduino2.PNG" alt="Combing out stuffed animal concept with arduino">
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid" src="images/tourtle_arduino.PNG" alt="The arduino setup we used to enable audio">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+          <h3 class="project-page">Prototyping Limitations</h3>
+        <p class="project-text">
+          Our second prototype ended up having a few issues with its implementation, the biggest being we couldn't actually integrate the Arduino system into the prototype. After working on it for several weeks, we were unable to find a way to shrink the prototype down to a small enough size to fit into the turtles shell, so we ended up leaving them as separate components in the end.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="project-page"> Reflections </h2>
+        <p class="project-text">
+          This project was unique because it revolved around the concept of improving the museum experience, which is not something I had much experience with before starting the project. However, that made the project
+          more interesting, as I had the opportunity to learn about an entirely new field with its own set of rules and restrictions.
+        </p>
+       <p class="project-text">
+         The toughest part of this project was narrowing down our solution concepts. There are so many possible ways to improve the museum experience for kids, and it took a long time
+         for us to decide how exactly what approach we wanted to take. However, after going through the entire process, I think we did a good job exploring many different avenues to tackle this issue.
+       </p>
+      </div>
+    </div>
+
+
+
+
+  <br>
+  <br>
+  </div>
+</div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
