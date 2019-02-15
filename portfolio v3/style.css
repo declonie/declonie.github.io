@@ -22,8 +22,18 @@ p {
   padding-bottom: 3%;
 }
 
+.feature {
+  font-size: 1.66rem;
+  font-weight: 900;
+  color: purple;
+}
+
 img {
   padding-bottom: 4%;
+}
+
+.icon {
+  width: 20%;
 }
 
 .persona img{
@@ -43,8 +53,8 @@ img {
 }
 
 .real-content {
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .nav-items {
   list-style-type: none;
