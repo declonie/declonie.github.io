@@ -234,6 +234,9 @@ li {
 
 /*Small*/
 @media (max-width: 576px) {
+  .project-text {
+    font-size: 1rem;
+  }
 
 }
 /*Medium*/
