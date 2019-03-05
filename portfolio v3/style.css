@@ -202,6 +202,15 @@ li {
 
 #nav-toggle {
   visibility: hidden;
+  right: 0;
+  position: relative;
+}
+
+.toggle {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  width: 100%;
 }
 
 /* @media only screen and (max-width: 800px) {
@@ -246,9 +255,6 @@ li {
 @media (max-width: 768px) {
   nav {
     transform: translateX(-288px);
-  }
-  .toggle {
-    position: fixed;
   }
   #nav-toggle {
     visibility: visible;
