@@ -247,9 +247,11 @@ li {
   nav {
     transform: translateX(-288px);
   }
+  .toggle {
+    position: fixed;
+  }
   #nav-toggle {
     visibility: visible;
-    position: fixed;
   }
   .content {
     transform: translateX(0);
