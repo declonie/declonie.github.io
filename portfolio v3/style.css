@@ -201,7 +201,7 @@ li {
 }
 
 #nav-toggle {
-  display: none;
+  visibility: hidden;
 }
 
 /* @media only screen and (max-width: 800px) {
@@ -248,7 +248,8 @@ li {
     transform: translateX(-288px);
   }
   #nav-toggle {
-    display: inline;
+    visibility: visible;
+    position: fixed;
   }
   .content {
     transform: translateX(0);
