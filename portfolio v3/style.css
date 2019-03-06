@@ -56,32 +56,29 @@ img {
   padding-left: 10%;
   padding-right: 10%;
 }
-.nav-items {
-  list-style-type: none;
+nav a {
+  display: block;
   margin: 0;
-  padding-top: 5%;
+  padding-left: 10%;
+  text-decoration: none;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
   font-size: 1.25rem;
 }
 
-.nav-items a {
-  color: white;
-  display: block;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 10%;
-  text-decoration: none;
-}
-
-.nav-items a:hover{
+nav a:hover{
   background-color: #583ba1;
   text-decoration: none;
 }
 
 
 .logo {
-  padding-left: 10%;
-  padding-top: 10%;
+  padding-top: 12%;
   padding-bottom: 10%;
+}
+.logo a:hover{
+  background-color: #1c1c1c;
 }
 
 .name {
