@@ -11,58 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <title>Life as a Gym - UX Design &amp; Research</title>
-    <script>
-      window.onload = function(e) {
-        "use strict";
-
-        var nav_is_open = false;
-        var cutoff = 768;
-        var button = document.getElementById("nav-toggle");
-        var nav = document.querySelector("nav");
-        var content = document.querySelector(".content");
-        button.addEventListener("click", function() {
-          nav_toggle_function();
-        });
-
-        function nav_toggle_function() {
-          if (!nav_is_open) {
-            open_nav();
-          } else {
-            close_nav();
-          }
-          nav_is_open = !nav_is_open;
-        }
-
-        var was_mobile_width = window.innerWidth < cutoff;
-        window.addEventListener("resize", function(e) {
-          if (was_mobile_width) {
-            if (window.innerWidth > cutoff) {
-              if (!nav_is_open) {
-                open_nav();
-                nav_is_open = true;
-              }
-            }
-          } else {
-            if (window.innerWidth < cutoff) {
-              if (nav_is_open) {
-                close_nav();
-                nav_is_open = false;
-              }
-            }
-          }
-          was_mobile_width = window.innerWidth < cutoff;
-        });
-
-        function open_nav() {
-          nav.style.transform = "translateX(0)";
-          content.style.transform = "translateX(288px)";
-        }
-
-        function close_nav() {
-          nav.style.transform = "translateX(-288px)";
-          content.style.transform = "translateX(0)";
-        }
-      }
+    <script src="javascript/nav.js">
     </script>
   </head>
   <body>
@@ -235,26 +184,26 @@
     </div>
     <div class="row">
       <div class="col-lg-6 col-sm-6 col-6">
-        <p>
-          What type of exercise activities do you habitually do?
+        <p class="project-text">
+          <strong>What type of exercise activities do you habitually do?</strong>
         </p>
         <img class="img-fluid" src="images/exercise_types.svg" alt="Bar graph showing endurance had the most responses with 100, followed be strength with 88, floor with 65, flexibility with 47, balance with 13, and other with 10">
       </div>
       <div class="col-lg-6 col-sm-6 col-6">
-        <p>
-          What resources do you use to learn exercises?
+        <p class="project-text">
+          <strong>What resources do you use to learn exercises?</strong>
         </p>
         <img class="img-fluid" src="images/meta-chart.svg" alt="Bar graph online videos had the most responses with 76, followed be classes with 40, mobile apps with 31, news articles with 17, books with 7, friends with 4, and tv with 2">
       </div>
       <div class="col-lg-6 col-sm-6 col-6">
-        <p>
-          What barriers prevent you from exercising?
+        <p class="project-text">
+          <strong>What barriers prevent you from exercising?</strong>
         </p>
         <img class="img-fluid" src="images/prevents.svg" alt="Pie chart showing lack of time with 103 responses, having to work with 94, low energy with 73, no desire at 72, physical pain at 46, no companion at 27, and too busy at 25">
       </div>
       <div class="col-lg-6 col-sm-6 col-6">
-        <p>
-          What motivates you to exercise?
+        <p class="project-text">
+          <strong>What motivates you to exercise?</strong>
         </p>
         <img class="img-fluid" src="images/motivates.svg" alt="Pie chart showing maintain/improve health at 114, Maintaining/improve appearance at 110, maintain/lose weight at 96, increase strength at 92, sense of accomplishment at 82, and enjoyment at 71">
       </div>
@@ -344,23 +293,32 @@
         <h3 class="project-page">Ideation - Deep Dive</h3>
         <p class="project-text">The ideation process for this project was especially difficult because there are so many potential ways to solve the problem of increasing exercise. To create our new project proposals, we took all of the data we gathered from our diary studies and survey, and highlighted some of the key factors that appeared in both. These key factors included time management, endurance and strength training, and the need for guidance during exercise.</p>
 
-        <p class="project-text">After this distillation, we began a second ideation phase where each group member would create new project concepts based on the information we learned; ideas were then shared, selected based on commonalities, and then fleshed out. We narrowed down to the three solutions based on feasibility and how close they aligned to the three key factors.</p>
+        <p class="project-text">After this distillation, we began a second ideation phase where each group member would create new project concepts based on the information we learned; ideas were then shared, selected based on commonalities, and then fleshed out. We narrowed down to the three solutions based on feasibility and how close they aligned to our initial research findings</p>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-4">
+        <p class="project-text">
+          <strong>Idea 1: A smart exercise mat</strong>
+        </p>
         <img src="images/mat.png" class="img-fluid" alt="Smart exercise mat">
         <p class="project-text">
-          A smart exercise mat with LED's which guide users through an exercise. This design also allows them to exercise anytime, anywhere.
+          The Mat is infused with LED panels which helps guide users through various exercises
         </p>
       </div>
       <div class="col-lg-4">
+        <p class="project-text">
+          <strong>Idea 2: AR/VR Exercise Glasses</strong>
+        </p>
         <img src="images/glasses.png" class="img-fluid" alt="Smart exercise glasses that can identify exercise opportunities">
         <p class="project-text">
           A pair of glasses which actively scan the environment and alert the user to different exercise opportunities
         </p>
       </div>
       <div class="col-lg-4">
+        <p class="project-text">
+          <strong>Idea 3: Exercise Form Correcter</strong>
+        </p>
         <img src="images/guider.png" class="img-fluid" alt="Smart exercise form helper">
         <p class="project-text">
           A camera which actively monitors users as they do exercises and provides guidance on how to correct their form
@@ -370,7 +328,7 @@
     <br>
     <div class="row">
       <div class="col-lg-12">
-        <h4 class="project-page">Narrowing the Selection</h4>
+        <p class="project-text"><strong>Narrowing the Selection</strong></p>
         <p class="project-text">
             After taking our design concepts and putting them in front of other UX professionals and potential users, we decided to pursue our smart exercise glasses. We went in this direction for 2 reasons, first, time management was by far the most consistent issue found throughout our studies, and our smart exercise glasses addressed this problem best. Second, we wanted to take a different approach to solving this problem; smart gym equipment already exists, and we didn't feel we had a unique angle to make a difference.
         </p>
