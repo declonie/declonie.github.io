@@ -1,0 +1,346 @@
+/*General Container position and padding*/
+.content {
+  position: relative;
+  transform: translateX(288px);
+  width: calc(100% - 288px);
+  z-index: 0;
+  transition: .3s;
+}
+
+.real-content {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', Arial, Verdana;
+}
+
+/*Navigation Styling*/
+nav {
+  background-color: #1c1c1c !important;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 288px;
+  height: 100%;
+  z-index: 1;
+  transition: .2s;
+}
+
+nav a {
+  display: block;
+  margin: 0;
+  padding-left: 10%;
+  text-decoration: none;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1.25rem;
+}
+
+nav a:hover{
+  background-color: #583ba1;
+  text-decoration: none;
+}
+
+#selected {
+  background-color: purple;
+}
+
+.logo {
+  padding-top: 12%;
+  padding-bottom: 10%;
+}
+.logo a:hover{
+  background-color: #1c1c1c;
+}
+
+.name {
+  color: white;
+  font-size: 1.25rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/*Paragraoh Text CSS*/
+p {
+  padding-bottom: 3%;
+}
+
+.project-text {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.persona-text {
+  font-size: 1.5rem;
+}
+
+.feature {
+  font-size: 1.66rem;
+  font-weight: 900;
+  color: purple;
+}
+
+/* Project Images CSS*/
+
+ .project-img img{
+   width: 90%;
+ }
+
+img {
+  padding-bottom: 4%;
+}
+
+.icon {
+  width: 20%;
+}
+
+.persona img{
+  width: 60%;
+  text-align: center;
+}
+
+.persona {
+  text-align:center;
+}
+
+.gal {
+	-webkit-column-count: 3;
+  -moz-column-count: 3;
+   column-count: 3;
+
+
+	}
+.gal img{
+  width: 100%;
+  padding: 15px 0;
+  }
+
+
+
+/* Headers */
+
+h1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+h2 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+h3 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 1.75rem;
+}
+
+h4 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.project-page {
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.title {
+  font-size: 1.25rem;
+  text-align: left;
+}
+button {
+  background-color: white;
+}
+
+
+
+.quote {
+  padding-left: 5%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 0%;
+  padding-right: 5%;
+}
+
+/* Video Stuff */
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 4%;
+	height: 0;
+  margin-bottom: -16%;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70%;
+  height: 70%;
+}
+
+/* Link Styling */
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+.project-link {
+  font-size: 1.5rem;
+}
+
+/* Persona Styling */
+
+.persona-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+
+/* List Stylings */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+li {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.quickfacts {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 1.5rem;
+}
+
+.list-item {
+  font-size: 1.5rem;
+  list-style-type: circle;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+}
+
+#nav-toggle {
+  visibility: hidden;
+  right: 0;
+  position: relative;
+}
+
+.toggle {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  width: 100%;
+}
+
+/* @media only screen and (max-width: 800px) {
+  nav {
+    transform: translateX(-288px);
+  }
+  #nav-toggle {
+    display: inline;
+  }
+  .content {
+    transform: translateX(0);
+    width: 100vw;
+  }
+  .project-text {
+    font-size: 1.25rem;
+  }
+  .persona-text {
+    font-size: 1.25rem;
+  }
+  .quote {
+    font-size: 1.25rem;
+  }
+  h3 {
+    margin-top: 5%;
+  }
+  .project-link {
+    font-size: 1.25rem;
+  }
+} */
+
+/*Extra Large*/
+@media (max-width: 1200px) {
+
+}
+
+/*Large*/
+@media (max-width: 992px) {
+
+}
+
+/*Medium*/
+@media (max-width: 768px) {
+  nav {
+    transform: translateX(-288px);
+  }
+  #nav-toggle {
+    visibility: visible;
+  }
+  .content {
+    transform: translateX(0);
+    width: 100vw;
+  }
+  .project-text {
+    font-size: 1.25rem;
+  }
+  .persona-text {
+    font-size: 1.25rem;
+  }
+  .quote {
+    font-size: 1.25rem;
+  }
+  h3 {
+    margin-top: 5%;
+  }
+  .project-link {
+    font-size: 1.25rem;
+  }
+  .list-item {
+    font-size: 1.25rem;
+  }
+  .gal {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+     column-count: 2;
+  }
+}
+
+/*Small*/
+@media (max-width: 576px) {
+  .project-text {
+    font-size: 1rem;
+  }
+  .list-item {
+    font-size: 1rem;
+  }
+  .persona-text {
+    font-size: 1rem;
+  }
+  .gal {
+     -webkit-column-count: 1;
+     -moz-column-count: 1;
+      column-count: 1;
+
+}
