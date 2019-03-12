@@ -319,6 +319,11 @@ li {
   .list-item {
     font-size: 1.25rem;
   }
+  gal {
+  	-webkit-column-count: 2;
+    -moz-column-count: 2;
+     column-count: 2;
+  	}
 }
 
 /*Small*/
@@ -332,5 +337,10 @@ li {
   .persona-text {
     font-size: 1rem;
   }
+  gal {
+  	-webkit-column-count: 1;
+    -moz-column-count: 1;
+     column-count: 1;
+  	}
 
 }
