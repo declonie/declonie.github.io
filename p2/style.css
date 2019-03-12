@@ -109,6 +109,11 @@ img {
   text-align:center;
 }
 
+.profile {
+  max-width: 500px;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
 
 
 /* Headers */
