@@ -121,6 +121,17 @@ img {
    column-count: 3;
 	}
 
+.social-media img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.social-media {
+  position:absolute;
+  bottom:0;
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
 
 /* Headers */
 
