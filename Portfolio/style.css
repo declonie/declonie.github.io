@@ -110,7 +110,6 @@ img {
 }
 
 .profile {
-  max-width: 500px;
   padding-top: 5%;
   padding-bottom: 3%;
 }
@@ -159,6 +158,9 @@ h4 {
   font-weight: bold;
 }
 
+.about-header {
+  padding-bottom: 3%;
+}
 
 /*iFrame Stuff*/
 iframe {
