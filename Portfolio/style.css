@@ -330,7 +330,7 @@ li {
   .list-item {
     font-size: 1.25rem;
   }
-  gal {
+  .gal {
   	-webkit-column-count: 2;
     -moz-column-count: 2;
      column-count: 2;
@@ -348,7 +348,7 @@ li {
   .persona-text {
     font-size: 1rem;
   }
-  gal {
+  .gal {
   	-webkit-column-count: 1;
     -moz-column-count: 1;
      column-count: 1;
