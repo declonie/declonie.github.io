@@ -1,1 +1,38 @@
 /* Tim's CSS */
+.icon {
+  width: 20%;
+}
+
+.project-page {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.project-text {
+  margin-bottom: 3rem;
+}
+
+.video-section {
+  background-color: #3EC06B;
+  color: white;
+}
+
+.video-header {
+  color: white;
+}
+
+.project-text {
+  font-weight: 300;
+  color: #6c757d;
+  font-size: 1.3rem;
+  line-height: 2.15rem;
+}
+
+.img-fluid {
+  margin-bottom: 3rem;
+}
+
+.project-page {
+  color: #343a40;
+  font-weight: 700;
+}
