@@ -17,8 +17,17 @@
   color: white;
 }
 
+.video-section-gym {
+  background-color: #00EDFF;
+  color: #28868E;
+}
+
 .video-header {
   color: white;
+}
+
+.video-header-gym {
+  color: #28868E;
 }
 
 .project-text {
