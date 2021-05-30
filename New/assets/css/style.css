@@ -46,3 +46,11 @@
   font-weight: 400;
   font-size: 1.3rem;
 }
+
+.img-fluid.icon {
+  margin-bottom: 2rem;
+}
+
+.icon {
+  margin-bottom: 2rem;
+}
