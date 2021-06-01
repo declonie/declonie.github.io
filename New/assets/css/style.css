@@ -73,6 +73,17 @@
   padding-left: 1rem;
 }
 
+.project-page-resume {
+  color: #343a40;
+  font-weight: 700;
+}
+
+.work-dates {
+  font-weight: 500;
+  color: #6c757d;
+  font-size: 1.2rem;
+}
+
 .list-item {
   font-size: 1.25rem;
   color: #6c757d;
@@ -97,6 +108,17 @@ ul li::before {
 
 a {
   font-weight: 400;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0 !important;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: gray;
 }
 
 .sidekick {
