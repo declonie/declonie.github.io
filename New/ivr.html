@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/styles.scss">
+  <link rel="stylesheet" href="assets/css/theme-1.css">
   <link rel="icon" type="image/png" href="assets/images/favicon.png">
 </head>
 
@@ -45,56 +46,32 @@
   <br>
   <br>
   <br>
+  <section class="text-center">
+  </section>
   <div class="container">
+    <div class="alert alert-primary" role="alert">
+      This is project is under a non-disclosure agreement. Any branding or mention of the company has been removed.
+  </div>
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h1 class="project-page"> Michigan Multimedia (M3) - Client Research Project</h1>
-        <img src="assets/images/m3_banner.jpg" alt="Michigan Multimedia Employees" class="img-fluid">
+        <h1 class="project-page">Interactive Voice Response (IVR) System Re-Design</h1>
+        <img src="assets/images/ivr.jpg" alt="Michigan Multimedia Employees" class="img-fluid">
       </div>
     </div>
   <div class="row">
     <div class="col-lg-12">
       <h2 class="project-page"> Project Description:</h2>
-      <p class="project-text"> Health Information Technology &amp; Services is a group within the University of Michigan Medical School, also known as Michigan Medicine. They manage all of the departmental
-        websites for each program within Michigan Medicine, e.g. Physiology, Biology, etc. Our group was tasked with conducting a variety of different research methods and use the findings to create guidelines for each of these websites, to ensure prospective students were recieving the information they needed when applying to different colleges at the University of Michigan.
-      </p>
+      <p class="project-text"> All business with customer service lines use a phone tree system of menus and options to help guide the caller to a specialist who can help them resolve their issues. For this project, we were tasked with examining the current IVR system in place, and trying to find ways to help improve it through research, design, and heuristics. In particular, the business wanted us to focus on making the system easier to use since a large portion of the caller demographic are adults over the age of 50.</p>
       <h2 class="project-page">Research Methodologies Used</h2>
-      <p class="project-text"> To create our website guidelines, we used a variety of different research methodologies to learn about our users, they were: </p>
+      <!-- <p class="project-text"> To start the project we needed to learn about IVR system design and general best practices, so we used a variety of different research methodologies, they were: </p> -->
     </div>
     <div class="col-lg-4 col-sm-6 col-12">
       <img class="img-fluid icon" src="assets/images/map.svg" alt="">
       <p class="feature">
-        Interaction Maps
+        IVR Path Mapping
       </p>
       <p class="project-text">
-        Mapping out an entire website to learn its structure, flow, and possible interactions
-      </p>
-    </div>
-    <div class="col-lg-4 col-sm-6 col-12">
-      <img class="img-fluid icon" src="assets/images/question.svg" alt="">
-      <p class="feature">
-        User Interviews
-      </p>
-      <p class="project-text">
-        Speaking with prospective students to learn what information they need to make informed decisions
-      </p>
-    </div>
-    <div class="col-lg-4 col-sm-6 col-12">
-      <img class="img-fluid icon" src="assets/images/trophy.svg" alt="">
-      <p class="feature">
-        Competitive Analysis
-      </p>
-      <p class="project-text">
-        Looking at some of Michigan's closest competitors to see what content and structure their websites have
-      </p>
-    </div>
-    <div class="col-lg-4 col-sm-6 col-12">
-      <img class="img-fluid icon" src="assets/images/feedback.svg" alt="">
-      <p class="feature">
-        Surveys
-      </p>
-      <p class="project-text">
-        Reaching out to a wide variety of students to better understand what content they need on websites
+        Mapping out the current IVR to learn its structure, flow, and possible interactions
       </p>
     </div>
     <div class="col-lg-4 col-sm-6 col-12">
@@ -103,7 +80,16 @@
         Heuristic Evaluation
       </p>
       <p class="project-text">
-        Going in depth on a website to uncover fundamental usability issues which may affect students experiences
+        Using a set of fundamental principles to uncover issues which may affect the caller experience
+      </p>
+    </div>
+    <div class="col-lg-4 col-sm-6 col-12">
+      <img class="img-fluid icon" src="assets/images/trophy.svg" alt="">
+      <p class="feature">
+        Competitive Analysis
+      </p>
+      <p class="project-text">
+        Looking at and calling our competitors to see how they've structured their IVR systems
       </p>
     </div>
     <div class="col-lg-4 col-sm-6 col-12">
@@ -112,26 +98,72 @@
         Usability Testing
       </p>
       <p class="project-text">
-        Sitting down with users and learning how they interact with websites and where potential improvements can be made
+        Sitting down with users and learning how they interact with IVRs and where potential improvements can be made
       </p>
     </div>
   </div>
   <div class="row">
       <div class="col-lg-12">
-        <h2 class="project-page">Interaction Map</h2>
+        <h2 class="project-page">IVR Tree Mapping</h2>
         <p class="project-text">
-          The first task our group decided to tackle was creating an interaction map of one of their existing websites. Since we had no prior experience using these websites and were in general
-          unfamiliar with the subject matter, the interaction map gave us an opportunity to learn more about the content of each website, how that content is structured, and also gave us a glimpse
-          into some of the basic usability issues that were currently present on the website. Below is an image of just one section of one of the websites we mapped out.
+          In order to evaluate and improve the IVR system, we first needed to map out how exactly
+          the current system worked; unfortunately the documentation we received from the business was
+          outdated and full of inconsistensies with the current live system. We spent a few days
+          calling the current IVR system and mapping each path and interaction which was required to proceed. To help speed up
+          the process, we used a voice processing app called Otter; which gave us a live translation of the system, and then we simply needed to create the tree structure ourselves.
+          After the mapping was complete, we were left with the following call tree structure.
         </p>
       </div>
   </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <img src="assets/images/map.jpg" class="img-fluid" alt="Interaction Map for Emergency Medicine">
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-lg-12">
+        <h2 class="project-page">Heuristic Evaluation </h2>
+        <p class="project-text">
+          In order to evaluate the current IVR system, we needed to find a set of heuristics we could use.
+          We took direction from two types of sources: scholarly and industy leaders. Sources such as Google Scholar helped us find articles
+          showing the limits of human patience, ability to memorize and understand options, and mental fatigue. Industry leaders, such as Twilio, Helped
+          break down simple best practices to follow when it comes to designing an IVR.
+        </p>
+        <p class="project-text">
+          <strong>Based on these sources, we created the following list of heuristics to evaluate our IVR system against:</strong>
+        </p>
+      </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-lg-8 col-md-8">
+      <img src="assets/images/heuristic.png" class="img-fluid" alt="Heuristics and Questions">
+    </div>
+  </div>
     <div class="row">
       <div class="col-lg-12">
-        <img src="assets/images/map.jpg" class="img-fluid" alt="Interaction Map for Emergency Medicine">
-      </div>
+        <p class="project-text">
+          <strong>From our heuristic evaluation, we discerned the following key points</strong>
+        </p>
+        <ul class="project-list">
+           <li class="list-item">Spoken prompts should be short in length, generally below 30 seconds is the industry standard</li>
+           <li class="list-item">When users reach a decision point; they should have less than 5 options to choose from</li>
+           <li class="list-item">Anytime a user needs to input information, the system should provide generoud timing to accomodate for elderly users or users with disabilities</li>
+           <li class="list-item">Tone and Voice is important for IVR systems; the system needs to present itself in a friendly yet professional manner</li>
+        </ul>
+        <br>
+        <br>
+        <p class="project-text">
+          <strong>To address these issues, we recommended taking the following actions:</strong>
+        </p>
+        <ul class="project-list">
+           <li class="list-item">Limit any prompts, speech, and directions to less than 30 seconds</li>
+           <li class="list-item">Limit the number of options user choose from to a maximum of 5; if more options are needed then add a second layer of decisions</li>
+           <li class="list-item">Adjust input timing for all actions to accomodate for all users, and add the ability to confirm your entry when finished</li>
+           <li class="list-item">Test the voice, tone, and speed wit users to find out what they prefer</li>
+        </ul>
     </div>
-    <div class="row">
+  </div>
+     <!-- <div class="row">
         <div class="col-lg-12">
           <h2 class="project-page">User Interviews </h2>
           <p class="project-text">
@@ -163,25 +195,54 @@
              <li class="list-item"> Create a Frequently Asked Questions section to help students get answers to commonly asked questions</li>
           </ul>
         </div>
-    </div>
+    </div> -->
     <div class="row">
         <div class="col-lg-12">
           <h2 class="project-page">Comparative Evaluation </h2>
           <p class="project-text">
-            After learning about our users through interviews, we conducted a comparative analysis to learn how our clients websites stack up against the competition. In order to conduct the analysis, we needed
-            to first determine which website
-            We then selected the competitors we wished to compare our website against and categorized them based on how they were related to our product.
+            The next step in our process was to look at what our competitors were doing with their IVR systems;
+            this gave us another dimension to compare our current system against.
           </p>
           <p class="project-text">
             <strong>Each competitor and categorization can be seen below:</strong>
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12">
+      <!-- <div class="row text-center">
+         <div class="col-lg-12">
           <img src="assets/images/competitors.PNG" class="img-fluid" alt="Competitors">
         </div>
-      </div>
+        <div class="col-lg-2 text-center evaluation mb-5">
+          <h3 class="project-page">
+            Direct Comparison
+          </h3>
+          <p class="evaluation-text">
+            Competing Health Company
+          </p>
+        </div><div class="col-lg-2 text-center evaluation mb-5">
+          <h3 class="project-page">
+            Direct Comparison
+          </h3>
+          <p class="evaluation-text mb-3">
+            Competing Health Company
+          </p>
+        </div><div class="col-lg-2 text-center evaluation mb-5">
+          <h3 class="project-page">
+            Direct Comparison
+          </h3>
+          <p class="evaluation-text mb-3">
+            Competing Health Company
+          </p>
+        </div><div class="col-lg-2 text-center evaluation mb-5">
+          <h3 class="project-page">
+            Direct Comparison
+          </h3>
+          <p class="evaluation-text">
+            Competing Health Company
+          </p>
+        </div>
+      </div> -->
+
       <div class="row">
           <div class="col-lg-12">
             <p class="project-text">
@@ -210,99 +271,6 @@
                <li class="list-item">The faculty sections of websites should support various methods of sorting to make information finding easier</li>
             </ul>
           </div>
-      </div>
-      <div class="row">
-          <div class="col-lg-12">
-            <h2 class="project-page">Online Surveys </h2>
-            <p class="project-text">
-              After completing our comparative analysis we moved on to creating an online survey. The goal of the survey was to dig deeper into the responses we got during
-              the user interview portion of the project. Specifically, we focused many of our questions around what criteria students used to make their decision about a program,
-              what information sources they use to learn about a program, how a department website can influence their perception of a program, and how outdated information impacts them.
-              Additionally, we asked participants to rank several of the criteria from these questions based on how important they were to them so we could ascertain what to
-              prioritize in the project moving forward.
-            </p>
-            <p class="project-text">
-              We sent our survey out to around 500 current PhD students and were able to get 34 responses in total. From these responses, the following are samples of the data we collected.
-            </p>
-          </div>
-          <div class="col-lg-6 col-sm-6 col-12">
-            <p class="project-text">
-              <strong>What resources did you use when you were applying for PhD programs?</strong>
-            </p>
-            <img class="img-fluid" src="assets/images/resources.png" alt="Resources used when applying to programs">
-          </div>
-          <div class="col-lg-6 col-sm-6 col-12">
-            <p class="project-text">
-              <strong>What information did you have trouble finding from PhD program websites?</strong>
-            </p>
-            <img class="img-fluid" src="assets/images/difficult.png" alt="Information which was difficult to find on websites">
-          </div>
-          <div class="col-lg-12">
-            <p class="project-text">
-              <strong>Rank the following criteria based on how important they are now that you've gone through parts of your PhD program</strong>
-            </p>
-            <img class="img-fluid" src="assets/images/ranked-criteria.png" alt="Ranking criteria from least to most important">
-              <p class="project-text">
-                <strong>Here are some of the findings we recieved from our survey. Additional information can be found in the <a href="assets/files/survey-report.pdf" target="_blank">Survey Research Report</a></strong>
-              </p>
-              <ul class="project-list">
-                 <li class="list-item">Department websites are the most used information sources to learn about a program</li>
-                 <li class="list-item">Department websites impact students' perceptions of a program, meaning it is important they make a good impression with prospective students</li>
-                 <li class="list-item">Certain resources, such as faculty members and current students are seen as the most helpful resources, but they aren't used as much as other resources</li>
-                 <li class="list-item">The criteria that is important to students changes between pre-enrollment and post-enrollment</li>
-              </ul>
-              <br>
-              <br>
-            <p class="project-text">
-              <strong>To address these findings, we recommended the following:</strong>
-            </p>
-            <ul class="project-list">
-               <li class="list-item">Focus on making information on these websites easy to find and comprehensive</li>
-               <li class="list-item">Adjust the content on each website to align with what current PhD students deem important since they have experience in the program</li>
-               <li class="list-item">Include contact information for all faculty and current students since they are seen as the most helpful resource for prospective PhD students</li>
-            </ul>
-          </div>
-        </div>
-      <div class="row">
-          <div class="col-lg-12">
-            <h2 class="project-page">Heuristic Evaluation </h2>
-            <p class="project-text">
-              After spending months learning about our users and what is important to them, we decided to shift our focus to conducting a heuristic evaluation of the Molecular and Integrative Physiology website.
-              The goal of are heuristic evaluation was to identify basic usability issues that can be seen throughout the website. We used Jakob Nielsen's 10 heuristics and modified them to better fit
-              the goals and the scope of the project. For each heuristic, we added between 3 and 7 criteria that enabled us to evaluate the website in a “yes” or “no” manner.
-            </p>
-            <p class="project-text">
-              <strong>A breakdown of each heuristic and the criteria can be seen below.</strong>
-            </p>
-          </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 col-md-4">
-          <img src="assets/images/heuristic.png" class="img-fluid" alt="Heuristics and Questions">
-        </div>
-      </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <p class="project-text">
-              <strong>From our heuristic evaluation, we discerned the following. Additional information can be found in the <a href="assets/files/heuristic.pdf" target="_blank">Heuristic Evaluation Report</a></strong>
-            </p>
-            <ul class="project-list">
-               <li class="list-item">Determing where a user is on the website can be challenging due to improper programming of the navigation</li>
-               <li class="list-item">There are many styling inconsistensies on the MIP website, including link styles and heading colors</li>
-               <li class="list-item">The built-in search functionality on the website is flawed and needs to be improved</li>
-               <li class="list-item">However, despite these flaws, the MIP website obeys many usability standards</li>
-            </ul>
-            <br>
-            <br>
-            <p class="project-text">
-              <strong>To address these issues, we recommended taking the following actions:</strong>
-            </p>
-            <ul class="project-list">
-               <li class="list-item">Fix issues in the navigation so it always prioritizes showing the page the user is on</li>
-               <li class="list-item">Create standards for all visual elements on the website</li>
-               <li class="list-item">When users use the search functionality, it should include predictive text, more helpful error messages, and help users recover from errors such as mis-spellings</li>
-            </ul>
-        </div>
       </div>
       <div class="row">
           <div class="col-lg-12">
