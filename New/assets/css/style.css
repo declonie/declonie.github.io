@@ -308,3 +308,24 @@ h1 {
 .team-boxed .social a:hover {
   opacity:1;
 }
+
+
+.tile {
+  width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+  box-shadow: 2px 2px 4px #a6e9c9;
+	background: #e8fbf2;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.tile-text {
+  font-size: 1rem;
+
+}
+
+.tile-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
