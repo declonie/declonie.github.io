@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="assets/css/theme-1.css">
   <link rel="icon" type="image/png" href="assets/images/favicon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 </head>
 
 <body>
@@ -27,11 +27,13 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   <script src="https://use.fontawesome.com/084a8df261.js"></script>
   <script src="assets/css/styles.scss"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
 
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="index.html">
-      <img src="assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      <img src="assets/images/logo2.png" width="30" height="30" class="d-inline-block align-top" alt="">
       Tim Decloniemaclennan
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -294,101 +296,347 @@
           After conducting the heuristic review and seeing where our current IVR system falls short, we turned out attention to creating new workflows which could be used for user testing sessions.
           These flows were built upon the lessons we learned from the heuristic exercise to create an experience that follows best practices and makes it easier for our users to achieve their goals.
         </p>
-        <h4 class="project-page"> Flow Breakdows </h4>
-        <div class="team-boxed">
-          <div class="container">
-            <div class="row people">
-              <div class="col-md-6 col-lg-4 item">
-                <div class="box">
-                  <h3 class="name">Flow 1 - The Current System</h3>
-                  <p class="description"><Strong>Flow Features:</strong></p>
-                  <ol>
-                    <li>The exact experience our current users experience</li>
-                    <li>All current heuristic violations were preserved</li>
-                    <li>All messaging, inputs, and pauses were also preserved</li>
-                  </ol>
-                    <p class="description"><Strong>Why did we test this flow?</strong> We wanted to gain a users perspective on the current system and the struggles they may face.
-                      Testing the original also creates a stronger argument for implementing changes if the results that come back aren't positive.</p>
-                </div>
+      </div>
+    </div>
+    <div class="row">
+      <h4 class="project-page"> Flow Breakdows </h4>
+      <div class="team-boxed">
+        <div class="container">
+          <div class="row people">
+            <div class="col-md-6 col-lg-4 item">
+              <div class="box">
+                <h3 class="name">Flow 1 - The Current System</h3>
+                <p class="description"><Strong>Flow Features:</strong></p>
+                <ol>
+                  <li>The exact experience our current users experience</li>
+                  <li>All current heuristic violations were preserved</li>
+                  <li>All messaging, inputs, and pauses were also preserved</li>
+                </ol>
+                <p class="description"><Strong>Why did we test this flow?</strong> We wanted to gain a users perspective on the current system and the struggles they may face.
+                  Testing the original also creates a stronger argument for implementing changes if the results that come back aren't positive.</p>
               </div>
-              <div class="col-md-6 col-lg-4 item">
-                <div class="box">
-                  <h3 class="name">Flow 2 - The Middle Ground</h3>
-                  <p class="description"><Strong>Flow Features:</strong></p>
-                  <ol>
-                    <li>Trimmed down messaging to meet heuristic time standards</li>
-                    <li>Changed inputs to meet heuristic input standards</li>
-                    <li>Revised error messaging to help users recover easily</li>
-                  </ol>
-                    <p class="description"><Strong>Why did we test this flow?</strong> We wanted to create a middle ground flow that passes all of the heuristics which we covered,
-                      without being such a radical change that the business would immediately reject it due to having too many changes.
-                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+              <div class="box">
+                <h3 class="name">Flow 2 - The Middle Ground</h3>
+                <p class="description"><Strong>Flow Features:</strong></p>
+                <ol>
+                  <li>Trimmed down messaging to meet heuristic time standards</li>
+                  <li>Changed inputs to meet heuristic input standards</li>
+                  <li>Revised error messaging to help users recover easily</li>
+                </ol>
+                <p class="description"><Strong>Why did we test this flow?</strong> We wanted to create a middle ground flow that passes all of the heuristics which we covered,
+                  without being such a radical change that the business would immediately reject it due to having too many changes.
               </div>
-              <div class="col-md-6 col-lg-4 item">
-                <div class="box">
-                  <h3 class="name">Flow 3 - The Drastic Overhaul</h3>
-                  <p class="description"><Strong>Flow Features:</strong></p>
-                  <ol>
-                    <li>A complete revamp of the menu's users will encounter to meet heuritsic standards</li>
-                    <li>Automation injected into the experience to lessen the amount of information users need to provide</li>
-                    <li>Drastically overhauled messaging to create a friendlier more human-centered experience</li>
-                  </ol>
-                    <p class="description"><Strong>Why did we test this flow?</strong> Drastically changing our current IVR
-                       allowed the business see the benefits of an IVR system that is solely focused on creating a simple and easy to use experience, without any of the issues of the current system present.
-                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+              <div class="box">
+                <h3 class="name">Flow 3 - The Drastic Overhaul</h3>
+                <p class="description"><Strong>Flow Features:</strong></p>
+                <ol>
+                  <li>A complete revamp of the menu's users will encounter to meet heuritsic standards</li>
+                  <li>Automation injected into the experience to lessen the amount of information users need to provide</li>
+                  <li>Drastically overhauled messaging to create a friendlier more human-centered experience</li>
+                </ol>
+                <p class="description"><Strong>Why did we test this flow?</strong> Drastically changing our current IVR
+                  allowed the business see the benefits of an IVR system that is solely focused on creating a simple and easy to use experience, without any of the issues of the current system present.
               </div>
             </div>
           </div>
         </div>
-      <h4 class="project-page"> Flow Examples </h4>
-      <div class="row text-center">
-        <div class="col-lg-6 text-center">
-          <h5> Original Flow: </h5>
-          <img src="assets/images/OriginalFlow2.png" class="img-fluid" alt="Journey Map for current IVR system">
-        </div>
       </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <p class="project-text">
+          <strong> Example of our current IVR system prompts </strong>
+        </p>
+      </div>
+    </div>
+    <div class="row text-center">
+      <a href="assets/images/OriginalFlow2.png" target="_blank">
+        <img src="assets/images/OriginalFlow2.png" alt="Diagram of an IVR system" class="img-fluid">
+      </a>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <p class="project-text">
+          <strong> Example of revised system prompts for testing </strong>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <a href="assets/images/ModifiedMAPDFlow.png" target="_blank">
+        <img src="assets/images/ModifiedMAPDFlow.png" alt="Diagram of an IVR system" class="img-fluid">
+      </a>
+    </div>
+
     <div class="row">
       <div class="col-lg-12">
-        <h2 class="project-page">IVR Journey Mapping</h2>
+        <h2 class="project-page"> Step 4: Usability Testing - Building an Actual IVR </h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="project-text">
+          After creating new flows for our IVR system, we needed to test them to ensure they were easy to use, quick, and allowed our users to accomplish their various goals. In order to test out each flow, we built a makeshift
+          IVR system using Twilio. Twilio allowed us to create an extensive IVR, complete with error scenarios, key presses, pauses, various voices and tones, and most importantly: we could program logic into the system which would actually
+          let our users simulate tasks.
+        </p>
+      </div>
+      <div class="col-lg-4 text-center">
+        <div class="tile2 purple">
+          <h3 class="tile-title">Testing Goals:</h3>
+          <p class="tile-text">Ensure users can authenticate themselves in the IVR system to reach the self-service menu</p>
+          <p class="tile-text">Ensure users can accomplish tasks once they have been authenticated</p>
+          <p class="tile-text">Discern spoken voice, tone, and speed preferences for our users</p>
+          <p class="tile-text">Evaluate whether the revised language and trimmed content still provide a usable system</p>
+          <p class="tile-text">Determine what tasks users are comfortable accomplishing through an IVR</p>
+        </div>
+      </div>
+      <div class="col-lg-4 text-center">
+        <div class="tile2 purple">
+          <h3 class="tile-title">Participant Breakdown:</h3>
+          <p class="data-numbers">
+            3
+          </p>
+          <p class="tile-text">Government Medicaid Members</p>
+          <p class="data-numbers">
+            2
+          </p>
+          <p class="tile-text">Medicare Advantage Part C Members</p>
+          <p class="data-numbers">
+            4
+          </p>
+          <p class="tile-text">Medicare Advantage Part D Members</p>
+        </div>
+      </div>
+      <div class="col-lg-4 text-center">
+        <div class="tile2 purple">
+          <h3 class="tile-title">Task Scenario Examples:</h3>
+          <p class="tile-text"><strong>Task 1:</strong> You had a procedure done several weeks ago, but still haven't received a bill regarding the procedure. Using the number on your ID card, please inquire about the procedures bill. </p>
+          <p class="tile-text"><strong>Task 2:</strong> You need to make a doctors appointment but you notice your ID card is expired, using the number on your insurance card, please order a new ID card.</p>
+          <p class="tile-text"><strong>Task 3:</strong> You recently had a procedure done and need to file a claim to ensure it gets paid for, using the number on your insurance card, please submit a claim.</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <h3 class="project-page">Usability Testing Findings</h3>
+      <div class="col-lg-4 col-sm-6 col-12">
+        <img class="img-fluid icon" src="assets/images/student.svg" alt="">
+        <p class="feature">
+          Less Choices is Better
+        </p>
+        <p class="project-text">
+          Stripping the IVR self-service menu down to 5 choices made it easier for users to accomplish their goals
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-12">
+        <img class="img-fluid icon" src="assets/images/student.svg" alt="">
+        <p class="feature">
+          Member Dedicated IVR Channel
+        </p>
+        <p class="project-text">
+          Don't combine IVR's for providers, suppliers, and members into one. Regular users find it too difficult to differentiate themselves.
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-12">
+        <img class="img-fluid icon" src="assets/images/student.svg" alt="">
+        <p class="feature">
+          Voice and Tone Matters
+        </p>
+        <p class="project-text">
+          Having a clear, professional, and empathetic voice through the system makes it easier to use and can affect how users perceive the company
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-12">
+        <img class="img-fluid icon" src="assets/images/student.svg" alt="">
+        <p class="feature">
+          Simple Language is Better
+        </p>
+        <p class="project-text">
+          Users don't speak or think like insurance companies; we need to use terminology they undertand and can relate to
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-12">
+        <img class="img-fluid icon" src="assets/images/student.svg" alt="">
+        <p class="feature">
+          Don't Force IVR Usage
+        </p>
+        <p class="project-text">
+          Most people don't want to use IVR systems to accomplish a lot of their tasks; focus on simple tasks they can easily accomplish with minimal inputs.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="project-page">Step 5: IVR Journey Mapping</h2>
         <p class="project-text">
           To get an accurate picture of our callers experience when using the IVR system, we created a journey map to show the steps involved in a call and
           the overall mood of our callers during each step. We noticed that most callers grew more frustrated the longer they spent in the IVR system, and
           only felt better once they were eventually connected to an actual human being after either requesting it or erroring out in the call tree.
         </p>
       </div>
+      <div class="row text-center">
+        <div class="col-lg-12 text-center">
+          <img src="assets/images/ivr_journey2.png" class="img-fluid" alt="Journey Map for current IVR system">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="project-page">Step 6: Final Recommendations</h2>
+        <p class="project-text">
+          After creating going through an entire gambit of research and design, synthesizing our findings, and analyzing all of the data we accumulated, we created a series of final recommendations for the business
+          to consider when making updates to their current IVR system.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="project-page">Recommendation 1: Pick the Appropriate Channels for a Task</h3>
+      </div>
+    </div>
     <div class="row text-center">
       <div class="col-lg-12 text-center">
-        <img src="assets/images/ivr_journey2.png" class="img-fluid" alt="Journey Map for current IVR system">
+        <img src="assets/images/ivrtasks.PNG" class="img-fluid" alt="Journey Map for current IVR system">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="project-page">Recommendation 2: Heavy Content Revisions</h3>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-lg-6">
+      <div class="card">
+      <div class="card-body">
+        <h3 class="tile-title">Current Messaging Example</h3>
+        <p class="card-text">For Eligibility, press 1<br>
+          Claims, press 2<br>
+          Material Requests, press 3<br>
+          ID Cards, press 4<br>
+          Address and Fax, press 5<br>
+          Benefits, press 6<br>
+          At any point in the IVR, press 9 for the main menu<br>
+          Press 0 any time to speak to a customer service representative</p>
       </div>
     </div>
   </div>
-
-
-        <!-- <ul class="project-list">
-          <li class="list-item">Spoken prompts should be short in length, generally below 30 seconds is the industry standard</li>
-          <li class="list-item">When users reach a decision point; they should have less than 5 options to choose from</li>
-          <li class="list-item">Anytime a user needs to input information, the system should provide generoud timing to accomodate for elderly users or users with disabilities</li>
-          <li class="list-item">Tone and Voice is important for IVR systems; the system needs to present itself in a friendly yet professional manner</li>
-        </ul>
-        <br>
-        <br>
-        <h3 class="project-page">
-          Heuristic Evaluation Recommendations
-        </h3>
-        <ul class="project-list">
-          <li class="list-item">Limit any prompts, speech, and directions to less than 30 seconds</li>
-          <li class="list-item">Limit the number of options user choose from to a maximum of 5; if more options are needed then add a second layer of decisions</li>
-          <li class="list-item">Adjust input timing for all actions to accomodate for all users, and add the ability to confirm your entry when finished</li>
-          <li class="list-item">Test the voice, tone, and speed wit users to find out what they prefer</li>
-        </ul> -->
+  <div class="col-lg-6">
+  <div class="card">
+  <div class="card-body">
+    <h3 class="tile-title">Revised Messaging Example</h3>
+    <p class="card-text">For documents including new ID's, proof of coverage, and payment forms, press 1.<br>
+      For billing and claims, including making payments or checking the status of current and past claims, Press 2.<br>
+      For benefits information, including deductibles and eligibility details, Press 3<br>
+      To speak with a representative, Press 0.<br>
+      To repeat this menu, Press 9.</p>
+      <br>
+  </div>
+</div>
+</div>
+  </div>
+    <!-- <div class="row text-center backyg">
+      <p class="tile-title2 text-left">
+        Participant Breakdown:
+      </p>
+      <div class="col-lg-4">
+        <p class="data-numbers">
+          3
+        </p>
+        <p class="project-text">
+          Government Medicaid Members
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p class="data-numbers">
+          2
+        </p>
+        <p class="project-text">
+          Medicare Advantage Part C Members
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p class="data-numbers">
+          4
+        </p>
+        <p class="project-text">
+          Medicare Advantage Part D Members
+        </p>
+      </div>
     </div>
+    <br>
+    <div class="row text-center backyg">
+      <p class="tile-title2 text-left">
+        Testing Goals:
+      </p>
+      <div class="col-lg-4">
+        <p class="data-numbers">
+          Evaluate Usability and Flow
+        </p>
+        <p class="project-text">
+          Evaluate the current and new flows to ensure users can still authenticate and reach the self-service portal
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p class="data-numbers">
+          Evaluate Content Revisions
+        </p>
+        <p class="project-text">
+          Evaluate the content and flow revisions to make sure they are usable and improve the experience
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p class="data-numbers">
+          Evaluate Voice and Tone
+        </p>
+        <p class="project-text">
+          Evaluate overall spoken voice and tone to determine member preferences in speech
+        </p>
+      </div>
     </div>
+    <br>
+    <div class="row text-center backyg">
+      <p class="tile-title2 text-left">
+        Participant Breakdown:
+      </p>
+      <div class="col-lg-4">
+        <p class="data-numbers">
+          3
+        </p>
+        <p class="project-text">
+          Government Medicaid Members
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p class="data-numbers">
+          2
+        </p>
+        <p class="project-text">
+          Medicare Advantage Part C Members
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p class="data-numbers">
+          4
+        </p>
+        <p class="project-text">
+          Medicare Advantage Part D Members
+        </p>
+      </div>
+    </div> -->
+    <br>
+  </div>
+  </div>
   </div>
   <footer class="bg-dark text-center text-lg-start mt-5">
     <!-- Copyright -->
     <div class="text-center p-3 text-light" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2021 Copyright:
-      <a class="text-light" href="https://mdbootstrap.com/">declonie.github.io</a>
+      <a class="text-light" href="https://declonie.github.io/Portfolio">declonie.github.io</a>
       <!-- Copyright -->
     </div>
   </footer>
