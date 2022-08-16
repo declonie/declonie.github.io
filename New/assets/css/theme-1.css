@@ -3737,7 +3737,7 @@ textarea.form-control-lg {
   border-top-right-radius: 0
 }
 
-.nav {
+/* .nav {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
@@ -4257,7 +4257,7 @@ textarea.form-control-lg {
 
 .navbar-dark .navbar-text a, .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff
-}
+} */
 
 .card {
   position: relative;
@@ -11370,7 +11370,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   color: #fff
 }
 
-.navbar-dark .navbar-toggler {
+/* .navbar-dark .navbar-toggler {
   border: none;
   padding: 0;
   font-size: inherit;
@@ -11385,7 +11385,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 
 .navbar-dark .navbar-nav .nav-link:active {
   color: #fff
-}
+} */
 
 #slide-line {
   position: absolute;
