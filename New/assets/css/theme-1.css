@@ -3746,7 +3746,7 @@ textarea.form-control-lg {
   margin-bottom: 0;
   list-style: none
 }
-
+*/
 .nav-link {
   display: block;
   padding: .5rem 1rem;
@@ -3754,7 +3754,7 @@ textarea.form-control-lg {
   text-decoration: none;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
 }
-
+/*
 @media(prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none
@@ -3867,7 +3867,7 @@ textarea.form-control-lg {
   -webkit-justify-content: space-between;
   justify-content: space-between
 }
-
+*/
 .navbar-brand {
   padding-top: .3125rem;
   padding-bottom: .3125rem;
@@ -3876,7 +3876,7 @@ textarea.form-control-lg {
   text-decoration: none;
   white-space: nowrap
 }
-
+/*
 .navbar-nav {
   display: -webkit-flex;
   display: flex;
