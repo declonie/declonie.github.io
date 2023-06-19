@@ -502,3 +502,7 @@ img.hover-shadow {
   border-radius: 1rem;
 
 }
+
+.borderless {
+  border: 2px solid #E7E7E7;
+}
