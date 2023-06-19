@@ -11260,9 +11260,9 @@ a.text-link:hover {
   display: none !important
 }
 
-.theme-bg-primary {
-  background-color: #41a4f5
-}
+/* .theme-bg-primary {
+  background-color: #41a4f5;
+} */
 
 .theme-bg-primary-darken {
   background-color: #0a71c6
