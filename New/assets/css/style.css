@@ -506,3 +506,16 @@ img.hover-shadow {
 .borderless {
   border: 2px solid #E7E7E7;
 }
+
+.resume-list{
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+.resume-item{
+  font-weight: 300;
+  color: #6c757d;
+  font-size: 1.2rem;
+  line-height: 2.15rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
