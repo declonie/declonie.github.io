@@ -519,3 +519,35 @@ img.hover-shadow {
   line-height: 2.15rem;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
+
+
+/* Small Devices Phones*/
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2rem;
+    } /*1rem = 16px*/
+
+  .lead {
+    font-size: 1.25rem;
+  }
+  .project-page {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  h2.project-page {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Medium Devices Tablets*/
+@media (min-width: 768px) { ... }
+
+/* Large Devices Desktop */
+@media (min-width: 992px) { ... }
+
+/* xlarge Devices really big desktop*/
+@media (min-width: 1200px) { ... }
+
+/* xxlarge desktop Devices */
+@media (min-width: 1400px) { ... }
